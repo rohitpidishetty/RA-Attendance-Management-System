@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "devStart": "nodemon index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "firebase": "^9.1.0"
+    },
+    "devDependencies": {
+        "fast-two-sms": "^3.0.0",
+        "nodemon": "^2.0.13"
+    }
+}
