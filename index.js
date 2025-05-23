@@ -3,6 +3,7 @@ const app = require("express")();
 const { getDatabase, child, ref, get } = require("firebase/database");
 const { initializeApp } = require("firebase/app");
 
+// I know these are not meant to be committed but lol, who cares!! > <
 const firebaseConfig = {
     apiKey: "AIzaSyDB6R-FFy1BDsNoNMYubpoy6ZIocjqHdPA",
     authDomain: "sample-630b5.firebaseapp.com",
