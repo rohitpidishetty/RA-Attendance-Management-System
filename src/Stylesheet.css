@@ -1,0 +1,111 @@
+.Student {
+  display: flex;
+  align-items: center;
+  border: 1px solid #267eb5;
+  padding: 15px;
+  color: white;
+  margin: 15px 5px;
+  border-radius: 10px;
+  background-color: #267eb5;
+  justify-content: space-between;
+}
+nav {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.classList {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(146, 124, 211, 1) 0%,
+    rgba(255, 255, 255, 1) 64%
+  );
+}
+#a_data,
+#p_data {
+  text-align: center;
+  width: 50%;
+  border: 1px solid rgb(214, 199, 199);
+}
+
+.sap {
+  align-items: center;
+  border: 1px solid #267eb5;
+  padding: 10px;
+  color: white;
+  margin: 10px 5px;
+  border-radius: 10px;
+  background-color: #267eb5;
+  justify-content: space-between;
+}
+#data {
+  visibility: hidden;
+}
+#btn {
+  border: 1px solid black;
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  padding: 10px;
+}
+.reportBtns {
+  border: 1px solid black;
+  padding: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(226, 177, 198, 1) 19%,
+    rgba(196, 232, 59, 1) 100%
+  );
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  transition: 500ms;
+}
+#Bt {
+  display: flex;
+  justify-content: center;
+}
+
+.EssBtn {
+  visibility: hidden;
+}
+.security {
+  border: 1px solid #b4e3ed;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+  background-color: #b4e3ed;
+}
+.security > img {
+  width: 80%;
+  border-radius: 10px;
+}
+.security > input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b4e3ed;
+}

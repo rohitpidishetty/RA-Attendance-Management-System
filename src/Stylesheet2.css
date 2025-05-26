@@ -1,0 +1,73 @@
+#vap_class > .sap {
+  align-items: center;
+  border: 1px solid #267eb5;
+  padding: 10px;
+  color: white;
+  margin: 10px 5px;
+  border-radius: 10px;
+  background-color: #267eb5;
+  justify-content: space-between;
+}
+#vap_class > #getData {
+    border: 1px solid white;
+    font-weight: 600;
+    background: rgb(226,177,198);
+    background: linear-gradient(90deg, rgba(226,177,198,1) 19%, rgba(196,232,59,1) 100%);
+  width: 90%;
+}
+#D > #overAllPercentage {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+#message {
+    width: 90%;
+}
+._sap_ {
+    align-items: center;
+    border: 1px solid #ff7e00;
+    padding: 10px;
+    color: white;
+    margin: 10px 5px;
+    border-radius: 10px;
+    background-color: #ff7e00;
+    justify-content: space-between;
+}
+
+#conditionalData  {
+    
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+ td {
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Sap_ {
+  visibility: hidden;
+}
+
+#D > #apply {
+  border: 1px solid white;
+  margin: 10px;
+  color: white;
+  font-style: italic;
+  font-weight: 600;
+  border-radius: 10px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(154,185,66,1) 86%, rgba(252,176,69,1) 100%);
+  padding: 10px;
+  visibility: hidden;
+}
+
+#vap_class > #load {
+  position: fixed;
+  width: 100%;
+  margin-top: 50%;
+  color: rgb(112, 106, 106);
+}
+#vap_class > #load > center > img {
+  width: 27%;
+}
