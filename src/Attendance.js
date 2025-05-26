@@ -9,12 +9,12 @@ import { getDatabase, ref, set, get, child } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAdm7hOT1A4aESIEADlBwMfMdzspoUh8ek",
-    authDomain: "ams-vap.firebaseapp.com",
-    projectId: "ams-vap",
-    storageBucket: "ams-vap.appspot.com",
-    messagingSenderId: "891049989013",
-    appId: "1:891049989013:web:e2b0523b26b86c3418dc9c"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
